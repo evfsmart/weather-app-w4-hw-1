@@ -1,0 +1,36 @@
+.WeatherSearch ul {
+  color: #88c3d8;
+  list-style: none;
+  padding-left: 0;
+  padding-top: 10px;
+}
+
+strong {
+  color: #889bd8;
+}
+
+.SearchButton {
+  border-color: #889bd8;
+  background-color: rgba(136, 195, 216, 20%);
+  color: #889bd8;
+}
+
+::placeholder {
+  color: #889bd8;
+}
+
+input {
+  color: #889bd8;
+  border: 1px solid #889bd8;
+  border-radius: 4px;
+  height: 40px;
+  padding: 6px;
+}
+
+.Description {
+  display: inline-block;
+}
+
+.Description::first-letter {
+  text-transform: capitalize;
+}
